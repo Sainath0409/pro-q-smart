@@ -1,0 +1,3 @@
+Item Code,Material,Quantity,Estimated Rate,Supplier 1 (Rate),Supplier 2 (Rate),Supplier 3 (Rate),Supplier 4 (Rate),Supplier 5 (Rate)
+OUT-01,Zinc Rod,1000,10.00,9.00,11.00,10.00,45.00,8.50
+OUT-02,Nickel Plate,50,500.00,490.00,510.00,500.00,495.00,950.00

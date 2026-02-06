@@ -1,0 +1,4 @@
+Item Code,Material,Quantity,Estimated Rate,Supplier 1 (Rate),Supplier 2 (Rate),Supplier 3 (Rate),Supplier 4 (Rate),Supplier 5 (Rate)
+ITEM-001,Steel Beam,100,50.00,48.50,52.00,50.00,55.00,45.00
+ITEM-002,Aluminum Plate,50,120.00,115.00,130.00,120.00,125.00,110.00
+ITEM-003,Copper Wire,200,15.50,16.00,15.00,17.50,14.00,15.80

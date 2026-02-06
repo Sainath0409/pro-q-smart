@@ -1,0 +1,131 @@
+.pageContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pageHeader h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-main);
+}
+
+.pageHeader p {
+    color: var(--text-muted);
+    margin-bottom: 2.5rem;
+}
+
+.uploadSection {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.dropzone {
+    display: block;
+    border: 2px dashed var(--border);
+    border-radius: var(--radius);
+    padding: 3rem;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dropzone:hover {
+    border-color: var(--primary);
+    background: #f5f3ff;
+}
+
+.dropzone input {
+    display: none;
+}
+
+.iconWrapper {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.dropzoneContent h3 {
+    margin-bottom: 0.5rem;
+}
+
+.dropzoneContent p {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+.sampleLink {
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.alert {
+    padding: 1rem;
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 500;
+}
+
+.alertError {
+    background-color: #fef2f2;
+    color: #b91c1c;
+    border: 1px solid #fecaca;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+.formatGuide h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.formatGuide ul {
+    margin: 1rem 0 1.5rem 1.5rem;
+    color: var(--text-muted);
+}
+
+.sampleViz {
+    background: #f8fafc;
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: monospace;
+    font-size: 0.75rem;
+}
+
+.sampleRow {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.sampleRow.data {
+    border-bottom: none;
+    color: var(--text-muted);
+}
+
+.spinning {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

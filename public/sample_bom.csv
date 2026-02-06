@@ -1,0 +1,9 @@
+Item Code,Material,Quantity,Estimated Rate,Supplier 1 (Rate),Supplier 2 (Rate),Supplier 3 (Rate),Supplier 4 (Rate),Supplier 5 (Rate)
+BOM-001,Aluminum 6061,100,50,48.5,52.1,50,49.2,55.5
+BOM-002,Stainless Steel 304,50,120,115,125,120,110,130
+BOM-003,Copper Wire,200,15,14,16,15.5,14.8,17
+BOM-004,Plastic Housing,500,8,7.5,8.2,7.9,8.5,8.1
+BOM-005,M6 Bolts,1000,0.5,0.45,0.55,0.5,0.48,0.52
+BOM-006,Gasket Seal,250,5,4.8,5.5,5.1,4.9,5.2
+BOM-007,Circuit Board A,10,150,145,160,150,155,148
+BOM-008,LED module,100,2.5,2.4,2.8,2.5,2.6,2.7
